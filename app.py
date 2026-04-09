@@ -64,7 +64,7 @@ Original file is located at
 #             st.error(f"Error: {e}")
 
 # 1. Start the app in the background
-!streamlit run app.py &>/content/logs.txt &
+
 
 # 2. Open a window inside Colab to see your app
 from google.colab import output
