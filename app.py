@@ -9,7 +9,7 @@ Original file is located at
 
 # Installing the AI brain and the web app tool
 
-
+# st.write("App loaded successfully")
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
 # import os
