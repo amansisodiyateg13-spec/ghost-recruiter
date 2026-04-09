@@ -66,16 +66,4 @@ Original file is located at
 # 1. Start the app in the background
 
 
-# 2. Open a window inside Colab to see your app
-from google.colab import output
-output.serve_kernel_port_as_iframe(8501, height='800')
 
-# 1. Install the tool
-!npm install -g localtunnel
-
-# 2. Get your Password (needed for the link)
-import urllib
-print("COPY THIS PASSWORD:", urllib.request.urlopen('https://ipv4.icanhazip.com').read().decode('utf8').strip())
-
-# 3. Start the app and the link
-!streamlit run app.py & npx localtunnel --port 8501
