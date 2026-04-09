@@ -8,7 +8,7 @@ Original file is located at
 """
 
 # Installing the AI brain and the web app tool
-!pip install -q streamlit google-generativeai
+
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
