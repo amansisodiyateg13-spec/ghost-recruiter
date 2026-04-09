@@ -12,12 +12,13 @@ Original file is located at
 
 # Commented out IPython magic to ensure Python compatibility.
 # %%writefile app.py
+# import os
 # import streamlit as st
 # import google.generativeai as genai
 # 
 # # Page Setup
-# st.set_page_config(page_title="Ghost Recruiter Agent", layout="wide")
-# st.title("👻 The Ghost Recruiter")
+# st.set_page_config(page_title="Ghost Recruiter", layout="wide")
+# st.title("👻 Ghost Recruiter")
 # st.markdown("### *Your Agentic AI Talent Agent*")
 # 
 # # Sidebar for the API Key
