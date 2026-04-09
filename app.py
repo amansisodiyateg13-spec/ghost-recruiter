@@ -40,7 +40,7 @@ Original file is located at
 #     else:
 #         try:
 #             genai.configure(api_key=api_key)
-#             model = genai.GenerativeModel('gemini-2.5-flash-latest')
+#             model = genai.GenerativeModel('gemini-2.5-flash')
 # 
 #             with st.status("Agent is making decisions...", expanded=True):
 #                 st.write("Checking skills...")
